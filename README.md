@@ -37,6 +37,8 @@
 ## Windows：
 开箱即用，双击run.bat即可运行程序，无需安装任何依赖。
 
+也可以双击软件包根目录的 `启动菜单.bat`，按数字选择桌面端（`run.bat`）、WebUI（`run_webui.bat`）或小剧场（`运行小剧场模式.bat`）。各模式会在独立窗口运行；退出菜单不会关闭已经启动的程序。请将菜单与这三个 BAT 放在同一目录，原有入口仍可单独使用。
+
 百度网盘：https://pan.baidu.com/s/1kLJT0mZ_gGQ2yRUrMJU_Tw?pwd=7vsd 提取码: 7vsd
 
 天翼云盘（不限速）：https://cloud.189.cn/t/b2EjU36Nj67b （访问码：0fe8）

@@ -98,6 +98,7 @@
       "include": [
         "run.bat",
         "run_webui.bat",
+        "启动菜单.bat",
         "启动参数配置.bat",
         "运行Live2D模型下载器.bat",
         "运行动作组编辑程序.bat",
