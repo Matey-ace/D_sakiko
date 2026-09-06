@@ -7,7 +7,7 @@ title 数字小祥 - 启动菜单
 echo.
 echo ========== 数字小祥 ==========
 echo   [1] 桌面端
-echo   [2] WebUI（手机 / 浏览器）
+echo   [2] WebUI（手机端）
 echo   [3] 小剧场模式
 echo   [0] 退出菜单
 echo.
