@@ -49,9 +49,9 @@ Google Drive: https://drive.google.com/drive/folders/1jWgKRWXvpRIgyiYpkVgk7vXGMF
 
 3.5.0 新版：
 
-百度网盘：https://pan.baidu.com/s/1cV3HbtjAnF-bBd7l83SOMg?pwd=1122 提取码: 1122
+百度网盘：https://pan.baidu.com/s/1Mrfrb2NT3wEg7nNQw4wTzA?pwd=1122 提取码: 1122
 
-天翼云盘：https://cloud.189.cn/t/vEZbAjbuiUze （访问码：sch3）
+天翼云盘：https://cloud.189.cn/t/aqiqQbMjAZJj（访问码：s43d）
 
 2.6.5 旧版（尚未更新）：
 
