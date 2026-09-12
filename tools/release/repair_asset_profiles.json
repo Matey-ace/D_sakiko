@@ -6,6 +6,7 @@
     "allow": [
       "GPT_SoVITS/*.py",
       "GPT_SoVITS/**/*.py",
+      "launcher/*.py",
       "GPT_SoVITS/*.json",
       "GPT_SoVITS/**/*.json",
       "GPT_SoVITS/*.jinja",

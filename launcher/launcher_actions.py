@@ -67,7 +67,7 @@ def build_command(
         command += ["--app-root", str(root), "--package", str(package.resolve()),
                     "--wait-pid", str(wait_pid),
                     "--status-file", str(root / "logs/update/last_update_result.json"),
-                    "--restart-command", json.dumps([executable, str(root / "GPT_SoVITS/launcher.py")])]
+                    "--restart-command", json.dumps([executable, str(root / "launcher/launcher.py")])]
         return command, root
     return command, root / "GPT_SoVITS"
 

@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import Mock, patch
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "GPT_SoVITS"))
+sys.path.insert(0, str(ROOT / "launcher"))
 from launcher_actions import ENTRIES, LauncherProcesses, RunningEntry, build_command, console_python, preferred_font
 
 
@@ -70,7 +70,7 @@ class LauncherActionsTest(unittest.TestCase):
         self.assertEqual(args[args.index("--wait-pid") + 1], "123")
         self.assertEqual(args[args.index("--package") + 1], str(package))
         self.assertEqual(json.loads(args[args.index("--restart-command") + 1]),
-                         [sys.executable, str(self.root / "GPT_SoVITS/launcher.py")])
+                         [sys.executable, str(self.root / "launcher/launcher.py")])
         self.assertIn("--status-file", args)
         with self.assertRaises(ValueError):
             build_command("update", self.root, sys.executable, package=package)

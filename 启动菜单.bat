@@ -3,7 +3,7 @@ setlocal DisableDelayedExpansion
 chcp 65001 >nul
 title 数字小祥 - 启动器
 
-if not exist "%~dp0GPT_SoVITS\launcher.py" (
+if not exist "%~dp0launcher\launcher.py" (
     echo 缺少启动器文件，请完整解压软件包后重试。
     pause
     exit /b 1
@@ -21,7 +21,7 @@ if not defined launcher_python (
 )
 
 "%ComSpec%" /d /c exit 0
-start "" /d "%~dp0" "%launcher_python%" "%~dp0GPT_SoVITS\launcher.py"
+start "" /d "%~dp0" "%launcher_python%" "%~dp0launcher\launcher.py"
 if errorlevel 1 (
     echo 启动器打开失败，请检查运行环境与文件权限。
     pause
